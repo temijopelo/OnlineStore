@@ -1,14 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/77b49a01e6.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script> -->
 </head>
 
 <body>
+    <div class="min-h-screen">
+        <div class="bg-[#8C6A5D] p-1">
+            <p class="text-center text-sm">New customer save 15%. Use code: ANTIC15</p>
+        </div>
+        <nav class=" flex justify-between px-5 py-2">
+            <div>
+                <a href="#">
+                    <i class="text-2xl fa-solid fa-bars"></i>
+                </a>
+            </div>
+            <ul class="flex gap-5">
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+        <aside class="flex justify-between px-5 pt-5 pb-3">
+            <h1 class="text-9xl w-[50%] pt-12">antic</h1>
+            <div class="w-[50%]">
+                <h5 class="text-lg font-bold p-4">LUXURY DECOR TO CREATE COMFORT IN YOUR HOME</h5>
+                <div class="flex justify-between">
+                    <p class="w-[50%] p-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse vitae debitis eum nostrum
+                        dignissimos!
+                        Ex, minima ipsum. Quos non id eaque vero possimus quasi nemo? At ad perspiciatis nemo sint!
+                    </p>
+                    <span class="w-[50%] p-4 flex flex-col justify-between ">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolor.</p>
+                        <a class="underline" href="#">VIEW GALLERY</a>
+                    </span>
+                </div>
+            </div>
+        </aside>
+        <section class=" flex gap-5 p-5">
+            <img class="h-[800px] w-[50%] object-fit rounded-lg " src="img/alexandru-acea-T5jXjei49uY-unsplash.jpg"
+                alt="" srcset="">
+            <img class="h-[800px] w-[50%] object-fit rounded-lg" src="img/sarah-dorweiler-fr0J5-GIVyg-unsplash.jpg"
+                alt="" srcset="">
+        </section>
+    </div>
 
+    <section class="bg-[#747264] text-center p-12 text-white">
+        <h2 class="text-3xl font-bold mb-2">SHOPPING MADE EASY</h2>
+        <p class="w-[45%] m-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt in necessitatibus officia et!
+            Excepturi ducimus autem ullam nulla aperiam beatae a alias, eius sed, sunt laudantium placeat illo nihil.
+        </p>
+    </section>
+
+    <section class="flex">
+        <div class="w-[50%]">
+            <h3>REDEFINING CLEANLINESS</h3>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, repellendus.</h5>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil sequi. Placeat corrupti omnis
+                rem.</p>
+
+            <a href="#">Shop Here</a>
+        </div>
+        <div class="w-[50%]">
+            <img class="p-10 h-[600px] w-fit object-fit" src="img/ricardo-gomez-angel-Zcyc2sO9Zgo-unsplash.jpg" alt=""
+                srcset="">
+        </div>
+    </section>
+
+    <footer class="bg-[#747264] text-white">
+        <h2 class="text-5xl font-extrabold p-5 md:w-[60%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Sit, illo?</h2>
+
+        <button class="bg-white text-black py-2 px-4 rounded-xl ml-5">Shop Items</button>
+
+        <div class="flex flex-wrap p-5 gap-5 justify-between md:w-[80%] m-auto md:p-7">
+            <form action="">
+                <label for="link"> Subscribe our newsletter</label>
+                <br>
+                <input type="email" placeholder="your email here">
+            </form>
+            <ul class="flex gap-4">
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <p class="text-center p-4 text-sm">Copyright &copy; 2024 Antic. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
